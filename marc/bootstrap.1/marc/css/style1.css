@@ -1,0 +1,40 @@
+
+#ajust {
+  padding: 0;
+
+}
+.bg-opacity {
+background-color: rgba(111, 111, 94, 0.6)!important;
+}
+.header-site {
+  background-image: url(../img/judy.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #ffffff;
+
+  transition: height 320ms;
+  position: fixed;
+  max-height: 230px;
+  min-height: 90px;
+  height: 230px;
+  top: 0;
+  width: 100%;
+  display:block;
+
+
+}
+#nav-wrapper {
+  position: relative;
+      max-width: 1400px;
+    max-height: 300px;
+    margin: 0 auto;
+    padding: 1.5%;
+    box-sizing: border-box;
+    height: inherit;
+        display: block;
+}
+#nav-drawer-bg {
+      max-height: 373px;    display: block;
+}
