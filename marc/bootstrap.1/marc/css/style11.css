@@ -26,9 +26,8 @@ padding-bottom: .7rem;
 background-color: rgba(111, 111, 94, 0.6)!important;
 
 }
-.bg-aaa{
-background-color: rgba(111, 111, 94, 0.6)!important;
-
+.bg-wood{
+background-color: #463914;
 }
 .header-site {
   background-image: url(../img/judy.jpg);
@@ -48,14 +47,13 @@ background-color: rgba(111, 111, 94, 0.6)!important;
 
 }
 ::-webkit-scrollbar{
-  width:12px;
+  width:8px;
   height:12px;
 }
 
 ::-webkit-scrollbar-thumb{  
 
   border-radius: 10px;
-  border: 0.5px solid #333333;
    background:rgba(132, 132, 132, 0.8);
 
 }
@@ -68,44 +66,30 @@ background-color: rgba(111, 111, 94, 0.6)!important;
 
 ::-webkit-scrollbar-thumb:hover {
     background-color: #5a5a5acc;
-    border: 1px solid #e4e4e4cc;
 }
 ::-webkit-scrollbar-thumb:active {
     background-color:#464646cc;
-    border: 1px solid #e4e4e4cc;
 }
 
 ::-webkit-scrollbar-button:vertical:decrement{
-  background-image: url(../img/arrow-up.svg), -webkit-linear-gradient(left,  #f9f9f9 50%,#e2e2e2 100%) ;
-  background-repeat: no-repeat;
-    background-position: 0px 2px, 0 0;
-    height: 15px;
+   background:rgba(132, 132, 132, 0.8);
+
+    height: 10px;
 
 }
 ::-webkit-scrollbar-button:vertical:increment{
-  background-image: url(../img/arrow-down.svg), -webkit-linear-gradient(left,  #f9f9f9 50%,#e2e2e2 100%) ;
-  background-repeat: no-repeat;
-    background-position: 0px 1px, 0 0;
-    height: 15px;
+   background:rgba(132, 132, 132, 0.8);
+
+    height: 10px;
 }
 ::-webkit-scrollbar-button:vertical:increment:active{
-  background-image: url(../img/arrow-down.svg), -webkit-linear-gradient(left,  #797979 50%,#797979 100%) ;
+
 
 }
 ::-webkit-scrollbar-button:vertical:decrement:active{
-  background-image: url(../img/arrow-up.svg), -webkit-linear-gradient(left,  #797979 50%,#797979 100%) ;
 
 }
-::-webkit-scrollbar-button:horizontal:decrement{
-  background-image: url(scrollbar/arrow-left.png), -webkit-linear-gradient(top,  #f9f9f9 50%,#e2e2e2 100%) ;
-  background-repeat: no-repeat;
-    background-position: 4px 3px, 0 0;
-}
-::-webkit-scrollbar-button:horizontal:increment{
-  background-image: url(scrollbar/arrow-right.png), -webkit-linear-gradient(top,  #f9f9f9 50%,#e2e2e2 100%) ;
-  background-repeat: no-repeat;
-    background-position: 5px 3px, 0 0;
-}
+
 /*http://blog.dynamicdrive.com/top-7-custom-scrollbar-javascript-and-jquery-plugins/*/
 
 .navbar {
