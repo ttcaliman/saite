@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="pt-br">
+<html lang="pt-br" >
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -8,36 +8,39 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/style1.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
 
     <title>Hello, world!</title>
   </head>
-  <body>
+  <body class="aa">
 
-  	<!---<section class="header-site" id="check">
+
+  	<section class="header-site " id="check">
 		
-		<div class="container" >
+		<div class="container sticky-top pog" >
 			
 			<div class="row">
 
 				<div class="col-sm-12">
-					
-					<h1 class="text-center">Wood's Lion</h1>
+					<img class="mx-auto d-block" src="img/logo-1.png" width="120px">
 
-					<p class="text-center">THe best place to update your home</p>	
+					<h1 class="text-center text-warning font1" id="f-s">Wood's Lion</h1>
+
+					<p class="text-center ">THe best place to update your home</p>	
 
 				</div>
 
 			</div>	
 		
 		</div>  		
-  	</section> -->
+  	</section> 
 
-
-	    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-danger " id="ajust" >
+  <!--MENU-->
+	    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-secondary  " id="ajust1" >
 	    	
 	    	<div class="container">
 
-				<a class="navbar-brand" href="#"><img src="img/logo-1.png" width="70px" />Logo</a>
+				<a class="navbar-brand  text-warning align-content-sm-center font1" href="#" id="f-s">Wood<img src="img/logo-1.png" width="70px" />Lions</a>
 
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
 					<span class="navbar-toggler-icon"></span>
@@ -45,14 +48,14 @@
 				
 				<div class="collapse navbar-collapse" id="navbarSite">
 					
-					<ul class="navbar-nav sr-auto">
+					<ul class="navbar-nav sr-auto ">
 						
 						<li class="nav-item">
-							<a class="nav-link" href="#">Home</a>
+							<a class="nav-link text-light" href="#">Home</a>
 						</li>
 						<li class="nav-item dropdown">
 
-							<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="navDrop">
+							<a class="nav-link dropdown-toggle text-light" href="#" data-toggle="dropdown" id="navDrop">
 							Galeria
 							</a>
 							<div class="dropdown-menu">
@@ -65,10 +68,10 @@
 
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#">Orçamento</a>
+							<a class="nav-link text-light" href="#">Orçamento</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#">Contato</a>
+							<a class="nav-link text-light" href="#">Contato</a>
 						</li>
 
 					</ul>
@@ -78,15 +81,16 @@
 			</div>
 
 		</nav>
-
+	<!--MAIN-->
 		<main class="principal container">
+
 		<div id="carouselSite" class="carousel slide" data-ride="carousel">
 			<ol class="carousel-indicators">
 				<li data-target="#carouselSite" data-slide-to="0" class="active"></li>
 				<li data-target="#carouselSite" data-slide-to="1" ></li>
 				<li data-target="#carouselSite" data-slide-to="2" ></li>
 			</ol>
-			
+	<!--SLIDE-->
 			<div class="carousel-inner">
 
 				<div class="carousel-item active">
@@ -136,11 +140,11 @@
 
 		</div>
 
-			
+	<!--APRESENTACAO-->	
 		<article class="container">
 			<div class="row">
 				<div class="col-12 text-center mt-5">
-					<h1 class="display-3"> Lorem Ipsum </h1>
+					<h1 class="display-3"><i class="fab fa-codepen"></i> Lorem Ipsum </h1>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vel ipsum justo. Sed eget dui lacinia, feugiat sem et, congue ante. Mauris porttitor justo varius viverra porta. Nulla consequat augue sed urna porttitor imperdiet. Aenean molestie ex vitae augue condimentum interdum. Donec vitae pellentesque dui. Fusce tincidunt volutpat est a lacinia. Nam lacinia urna vel ex euismod porttitor. Nunc sodales a nunc quis dictum. Curabitur sed tellus et sapien lobortis commodo eu sit amet odio. Duis justo ex, laoreet nec scelerisque finibus, facilisis ac odio. Donec sit amet consequat nulla, eu auctor urna. Morbi rutrum magna id eros iaculis sagittis. Vestibulum aliquet nisl elit, quis interdum neque malesuada vel.
 						<br>
 						<br>
@@ -150,22 +154,21 @@
 					</p>
 				</div>
 			</div>
+
+	<!--CARDS-->
 			<div class="row justify-content-sm-center justify-content-md-start ">
 				
-				<div class="col-8 col-md-6 col-lg-4">
+				<div class="col-12 col-sm-8 col-md-6 col-lg-4">
 					
 					<div class="card mb-5">
-						<img class="card-img" src="img/woodie-1.gif" alt="Card image" style="height: 250px;">
+						<img class="card-img-top" src="img/alecgol.jpg" style="height: 150px;">
 						
 						<div class="card-body">
-						<div class="card-img-overlay">
 							
 							<h4 class="card-title">Nunc vel</h4>
 							<h6 class="card-subtitle mb-2 text-muted">In sit amet nisl ex</h6>
-							<p class="card-text mb-5">egestas lacus imperdiet in sit amet nisl ex</p>
+							<p class="card-text mb-3">egestas lacus imperdiet in sit amet nisl ex</p>
 						</div>
-						</div>
-
 						<ul class="list-group list-group-flush"> 
 							<li class="list-group-item">in sit amet nisl ex
 							</li>
@@ -178,13 +181,13 @@
 							<a href="#" class="card-link">risus</a>
 							<a href="#" class="card-link">porttitor</a>
 						</div>
-						</div>
+					</div>
 					</div>
 				
-				<div class="col-8 col-md-6 col-lg-4">
+				<div class="col-12 col-sm-8 col-md-6 col-lg-4">
 					
 					<div class="card mb-5">
-						<img class="card-img-top" src="img/woodie-1.gif" style="height: 150px;">
+						<img class="card-img-top" src="img/alecgol.jpg" style="height: 150px;">
 						
 						<div class="card-body">
 							
@@ -206,10 +209,10 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-8 col-md-6 col-lg-4">
+				<div class="col-12 col-sm-8 col-md-6 col-lg-4">
 					
 					<div class="card mb-5">
-						<img class="card-img-top" src="img/woodie-1.gif" style="height: 150px;">
+						<img class="card-img-top" src="img/alecgol.jpg" style="height: 150px;">
 						
 						<div class="card-body">
 							
@@ -239,52 +242,74 @@
 					
 		</article>
 		</main>
-		<footer class="fonte box">
-			<div class="sub-box"> 
+		<!--fim da main-->
 
-					<div class="info-box"><i class="fas fa-phone fa-3x icones" ></i>	
-						<ul>	
-										
-							<li> CELL</li>
-							<li>(12)9876-5432</li>
-							<li>(12)9876-5432</li>
-						</ul>
+	<!--FOOTER-->
+		<footer class="container">
+
+			<div class="row">
+
+			<div class="col-12 mb-3 "><hr></div>
+
+
+					<div class="col-6 col-md-3   bg-warning pt-2 text-center" style="word-wrap:break-word;">
+							
+						<d1>			
+							<dt><i class="fas fa-phone fa-2x icones" ></i>	 TELEFONE</dt>
+							<dd >(12)9876-5432 / (12)9876-5432</dd>
+							
+						</d1>	
+
 					</div>
 
-					<div class="info-box"><i class="far fa-envelope fa-3x icones" ></i>
-						<ul>	
-												
-							<li>CONTATO</li>
-							<a href="#"><li>fazol@gmail.com</li></a>
-						</ul>
-					</div>
+					<div class="col-6 col-md-3   bg-primary pt-2 text-center" style="word-wrap:break-word;">
+						
+						<d1>			
+							<dt> <i class="far fa-envelope fa-2x icones" ></i> CONTADO</dt>
+							<dd class="list-group">EMAIL@GMAIL.COM</dd>
+						</d1>	
 
-					<div class="info-box"><i class="fas fa-plus-circle fa-3x icones" ></i>	
-						<ul>	
-										
-							<li> SIGA-ME</li>
-							<li>
+					</div>
+					
+
+					<div class="col-6 col-md-3   bg-secondary pt-2 text-center" style="word-wrap:break-word;">	
+							
+						<d1>				
+							<dt> <i class="fas fa-plus-circle fa-2x icones" ></i> SIGA-ME</dt>
+							<dd>
 								<a href="#"><i class="fab fa-facebook-square fa-lg rs btn-facebook" ></i></a>
 								<a href="#"><i class="fab fa-twitch fa-lg rs btn-twitch"></i></a>
 								<a href="#"><i class="fab fa-instagram fa-lg rs btn-instagram"></i></a>				
-							</li>
-						</ul>
+							</dd>
+						</d1>
+
 					</div>
 
-					<div class="info-box"><i class="far fa-copyright fa-3x icones" ></i>	
-						<ul>	
-									
-							 <li>fazolasasvoar dd 2018 </li>
-							<a href="https://ttcaliman.github.io"><li>ttcaliman.github.io</li></a>
-						</ul>
+					<div class="col-6 col-md-3   bg-success pt-2 text-center" style="word-wrap:break-word;">	
+						
+						<d1>			
+							<dt> <i class="far fa-copyright fa-2x icones" ></i> CREDITOS</dt>
+							<dt><a href="#">ttcaliman.github.io</a></dt>
+							
+							
+						</d1>
+
 					</div>
+			<blockquote class="col-12 blockquote  bg-danger text-light">
+				<div class="row">
+					<p class="mb-0 col-md-8 text-left d-none d-md-block"><small><em>You can never understand everything. But, you should push yourself to understand my sistem.</em></small> </p>
+	    			<p class="mb-0 col-12 col-md-4  text-right">Direito Reservados: <a href="https://github.com/ttcaliman" class="text-light">TtCaliman ©</a></p>
+    			</div>
+    		</blockquote>
 			</div>
+
+		</div>
     	</footer>
-    	<div class="rodape">
-    			
-    			<a href="https://github.com/ttcaliman" id="a2"><li style="list-style:  none;">TtCaliman © </li></a>
-    			<li id="cc">Direito Reservados: </li>
-    	</div>
+    	
+
+    		
+
+    	
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

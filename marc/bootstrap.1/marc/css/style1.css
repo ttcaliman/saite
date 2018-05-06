@@ -1,7 +1,26 @@
+@font-face {
+    font-family: 'AlphaWood';
+    src:url('../fonts/alphawood/AlphaWood.ttf.woff') format('woff'),
+        url('../fonts/alphawood/AlphaWood.ttf.svg#AlphaWood') format('svg'),
+        url('../fonts/alphawood/AlphaWood.ttf.eot'),
+        url('../fonts/alphawood/AlphaWood.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+.font1 { 
+   font-family: 'AlphaWood';
+   color: white;
+ } 
+ #f-s {   
+  text-shadow: 0px 0px 20px #656565;
+ } 
 
 #ajust {
-  padding: 0;
-
+    top: -10px;
+padding-bottom: .01rem;
+}
+#ajust1 {
+padding-bottom: .7rem;
 }
 .bg-opacity {
 background-color: rgba(111, 111, 94, 0.6)!important;
@@ -15,26 +34,80 @@ background-color: rgba(111, 111, 94, 0.6)!important;
   color: #ffffff;
 
   transition: height 320ms;
-  position: fixed;
-  max-height: 230px;
   min-height: 90px;
-  height: 230px;
+  height:300px;
   top: 0;
   width: 100%;
   display:block;
 
 
 }
-#nav-wrapper {
-  position: relative;
-      max-width: 1400px;
-    max-height: 300px;
-    margin: 0 auto;
-    padding: 1.5%;
-    box-sizing: border-box;
-    height: inherit;
-        display: block;
+::-webkit-scrollbar{
+  width:12px;
+  height:12px;
 }
-#nav-drawer-bg {
-      max-height: 373px;    display: block;
+
+::-webkit-scrollbar-thumb{  
+
+  border-radius: 10px;
+  border: 0.5px solid #333333;
+   background:rgba(132, 132, 132, 0.8);
+
 }
+::-webkit-scrollbar-track{  
+  background:rgb(82, 82, 82, 0.5);
+  
+}
+
+
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #5a5a5acc;
+    border: 1px solid #e4e4e4cc;
+}
+::-webkit-scrollbar-thumb:active {
+    background-color:#464646cc;
+    border: 1px solid #e4e4e4cc;
+}
+
+::-webkit-scrollbar-button:vertical:decrement{
+  background-image: url(../img/arrow-up.svg), -webkit-linear-gradient(left,  #f9f9f9 50%,#e2e2e2 100%) ;
+  background-repeat: no-repeat;
+    background-position: 0px 2px, 0 0;
+    height: 15px;
+
+}
+::-webkit-scrollbar-button:vertical:increment{
+  background-image: url(../img/arrow-down.svg), -webkit-linear-gradient(left,  #f9f9f9 50%,#e2e2e2 100%) ;
+  background-repeat: no-repeat;
+    background-position: 0px 1px, 0 0;
+    height: 15px;
+}
+::-webkit-scrollbar-button:vertical:increment:active{
+  background-image: url(../img/arrow-down.svg), -webkit-linear-gradient(left,  #797979 50%,#797979 100%) ;
+
+}
+::-webkit-scrollbar-button:vertical:decrement:active{
+  background-image: url(../img/arrow-up.svg), -webkit-linear-gradient(left,  #797979 50%,#797979 100%) ;
+
+}
+::-webkit-scrollbar-button:horizontal:decrement{
+  background-image: url(scrollbar/arrow-left.png), -webkit-linear-gradient(top,  #f9f9f9 50%,#e2e2e2 100%) ;
+  background-repeat: no-repeat;
+    background-position: 4px 3px, 0 0;
+}
+::-webkit-scrollbar-button:horizontal:increment{
+  background-image: url(scrollbar/arrow-right.png), -webkit-linear-gradient(top,  #f9f9f9 50%,#e2e2e2 100%) ;
+  background-repeat: no-repeat;
+    background-position: 5px 3px, 0 0;
+}
+/*http://blog.dynamicdrive.com/top-7-custom-scrollbar-javascript-and-jquery-plugins/*/
+
+.navbar {
+      transition: all 0.3s;
+    box-shadow: -2px 1px 10px rgba(0, 0, 0, 0.62);
+}
+.sticky-top {
+  top: -15px;
+}
+.pog {    padding: 65px 0 15px 0;}
