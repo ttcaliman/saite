@@ -28,6 +28,9 @@ article img{
     width: 70%;
     padding-top: auto;
 }
+.card-body{
+  padding: 1.25rem 0.7rem;
+}
 .bg-tema{
      background-color: #243a51;
 }
