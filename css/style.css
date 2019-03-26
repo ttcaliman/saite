@@ -10,7 +10,7 @@
  
 /* CABEÇALHO */
   .cabecalho {width: 100%; float: left; padding: 41px 0px; background-color: #13c7ae;}
-   .logo a {margin-top: -20px; margin-bottom: -20px; margin-left: 70px; width: 300px; height: 100px; float: left; background: url("http://pluspng.com/img-png/png-logo-design-fancy-png-logo-design-91-on-professional-logo-design-with-png-logo-design-734.png") no-repeat; font-size: 0;  }
+   .logo a {margin-top: -20px; margin-bottom: -20px; margin-left: 70px; width: 300px; height: 100px; float: left; background: url("") no-repeat; font-size: 0;  }
    .cabecalho form {margin-top: -5px; margin-bottom: -20px; margin-right: 4.5%; width: 30%; float: right; }
    .cabecalho input[type="text"] {width: 85%; float: left; padding: 15px 10px;border-radius: 10px 0px 0px 10px;}
   .cabecalho input[type="text"]::placeholder {color: red; font-size: 1.3em;}
